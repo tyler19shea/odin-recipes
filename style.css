@@ -1,0 +1,35 @@
+* {
+    font: monospace, serif;
+    font-size: 24px;
+}
+h1 {
+    background-color: blue;
+    color: white;
+    font-size: 64px;
+    text-align: center;
+}
+li {
+    background-color: black;
+    color: white;
+}
+h2 {
+    font-size: 32px;
+    font: Georgia;
+}
+.description {
+    color: orange;
+}
+.ingredients {
+    color: purple;
+}
+.steps {
+    color: green;
+}
+.items {
+    background-color: aqua;
+    color: brown;
+}
+.directions {
+    background-color: crimson;
+    color: chartreuse;
+}
