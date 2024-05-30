@@ -3,18 +3,33 @@
     font-size: 24px;
 }
 h1 {
-    background-color: blue;
-    color: white;
+    background-color: rgba(0, 0, 255, 0.2);
+    color: black;
     font-size: 64px;
     text-align: center;
+    padding: 8px 24px;
+    margin: 60px 100px;
 }
-li {
-    background-color: black;
-    color: white;
+img {
+    display: block;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 8px;
 }
 h2 {
     font-size: 32px;
     font: Georgia;
+}
+#recipes {
+    list-style: none;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    padding: 8px 24px;
+    margin: 8px 100px;
+    text-align: center;
+}
+#credit {
+    opacity: 0.3;
 }
 .description {
     color: orange;
@@ -23,13 +38,15 @@ h2 {
     color: purple;
 }
 .steps {
-    color: green;
+    color: rgb(220, 20, 60);
 }
 .items {
-    background-color: aqua;
-    color: brown;
+    background-color: rgba(128, 0, 128, 0.3);
+    margin: 24px;
+    padding: 24px 60px;
 }
 .directions {
-    background-color: crimson;
-    color: chartreuse;
+    background-color: rgba(220, 20, 60, 0.8);
+    margin: 24px;
+    padding: 24px 60px;
 }
