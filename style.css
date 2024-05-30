@@ -24,15 +24,26 @@ h2 {
     list-style: none;
     background-color: rgba(0, 0, 0, 0.3);
     color: white;
-    padding: 8px 24px;
+    padding: 32px 24px;
     margin: 8px 100px;
     text-align: center;
+    display: flex;
+}
+#recipes li {
+    flex: 1;
+    background-color: aqua;
 }
 #credit {
     opacity: 0.3;
 }
 .description {
     color: orange;
+}
+.containers {
+    display: flex;
+}
+.containers div {
+    flex: 1;
 }
 .ingredients {
     color: purple;
